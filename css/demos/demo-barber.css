@@ -429,3 +429,9 @@ body {
 .custom-working-hours .custom-working-hours-item:hover, .custom-working-hours .custom-working-hours-item.active {
 		background-color: var(--primary);
 }
+/* Cambiar el color de los placeholders */
+form.contact-form input::placeholder,
+form.contact-form textarea::placeholder {
+    color: rgb(255, 255, 255) !important;
+}
+
