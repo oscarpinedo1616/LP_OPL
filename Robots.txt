@@ -1,0 +1,25 @@
+# Archivo robots.txt optimizado para https://oscarpinedo1616.github.io/LP_OPL/
+
+# Permitir que todos los motores de búsqueda accedan al sitio
+User-agent: *
+Disallow:
+
+# Bloquear acceso a archivos y carpetas innecesarias
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /cgi-bin/
+Disallow: /*.php$
+Disallow: /*.sql$
+Disallow: /*.zip$
+Disallow: /*.tar.gz$
+
+# Permitir el rastreo de archivos CSS y JS (importante para una correcta indexación)
+Allow: /*.css$
+Allow: /*.js$
+
+# Incluir el mapa del sitio para mejorar la indexación
+Sitemap: https://oscarpinedo1616.github.io/LP_OPL/sitemap.xml
+
+# Especificar el tiempo entre solicitudes para evitar sobrecarga en el servidor (opcional)
+Crawl-delay: 10
